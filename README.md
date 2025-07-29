@@ -31,13 +31,6 @@ This repository includes implementations of **Decision Tree** classifier for pre
 
 ---
 
-## 🔧 How to Run
-
-### 1. Naive Bayes
-Open the notebook using Jupyter:
-
-jupyter notebook notebooks/Gaussian_Multinomial.ipynb
-
 ## 🧹 Preprocessing Steps
 
 Handle missing values (marked ?)
