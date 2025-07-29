@@ -6,7 +6,6 @@ This repository includes implementations of **Naive Bayes** and **Decision Tree*
 
 ## 📂 Files & Structure
 
-- **notebooks/Gaussian_Multinomial.ipynb** – Naive Bayes classifiers (Gaussian & Multinomial)
 - **scripts/Decision Tree AI Assignment-6.py** – Decision Tree classifier using scikit-learn
 - **data/** – Folder for `adult.data` (training set) and `adult.test` (test set)
 - **README.md** – Project description and usage
@@ -28,8 +27,6 @@ This repository includes implementations of **Naive Bayes** and **Decision Tree*
 
 | Model                  | File                                      |
 |------------------------|-------------------------------------------|
-| Gaussian Naive Bayes   | `notebooks/Gaussian_Multinomial.ipynb`    |
-| Multinomial Naive Bayes| `notebooks/Gaussian_Multinomial.ipynb`    |
 | Decision Tree Classifier | `scripts/Decision Tree AI Assignment-6.py` |
 
 ---
