@@ -1,6 +1,6 @@
 # 🧠 AI Salary Prediction Project
 
-This repository includes implementations of **Naive Bayes** and **Decision Tree** classifiers for predicting whether an individual earns more or less than \$50K/year based on U.S. Census data.
+This repository includes implementations of **Decision Tree** classifier for predicting whether an individual earns more or less than \$50K/year based on U.S. Census data.
 
 ---
 
