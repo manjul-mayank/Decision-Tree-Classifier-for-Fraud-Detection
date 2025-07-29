@@ -1,2 +1,64 @@
-# Decision-Tree-Classifier-for-Fraud-Detection
-This Python script builds a decision tree model to classify fraud cases based on taxable income (≤30,000 = risky). It preprocesses data (one-hot encoding for categorical variables), splits into train/test sets (80/20), trains the model, and evaluates performance (accuracy, classification report).
+# 🧠 AI Salary Prediction Project
+
+This repository includes implementations of **Naive Bayes** and **Decision Tree** classifiers for predicting whether an individual earns more or less than \$50K/year based on U.S. Census data.
+
+---
+
+## 📂 Files & Structure
+
+- **notebooks/Gaussian_Multinomial.ipynb** – Naive Bayes classifiers (Gaussian & Multinomial)
+- **scripts/Decision Tree AI Assignment-6.py** – Decision Tree classifier using scikit-learn
+- **data/** – Folder for `adult.data` (training set) and `adult.test` (test set)
+- **README.md** – Project description and usage
+- **.gitignore** – Ignored files and directories
+- **LICENSE** – MIT License
+
+---
+
+## 📊 Dataset
+
+**Adult Census Income Dataset** from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/adult)
+
+- Predict the `salary` column: `<=50K` or `>50K`
+- Features include: `age`, `education`, `workclass`, `occupation`, `capital-gain`, etc.
+
+---
+
+## 🧠 Models Implemented
+
+| Model                  | File                                      |
+|------------------------|-------------------------------------------|
+| Gaussian Naive Bayes   | `notebooks/Gaussian_Multinomial.ipynb`    |
+| Multinomial Naive Bayes| `notebooks/Gaussian_Multinomial.ipynb`    |
+| Decision Tree Classifier | `scripts/Decision Tree AI Assignment-6.py` |
+
+---
+
+## 🔧 How to Run
+
+### 1. Naive Bayes
+Open the notebook using Jupyter:
+
+jupyter notebook notebooks/Gaussian_Multinomial.ipynb
+
+## 🧹 Preprocessing Steps
+
+Handle missing values (marked ?)
+
+Encode categorical variables using LabelEncoder or OneHot
+
+Normalize continuous variables where needed
+
+Ensure consistent preprocessing across models
+
+## 📄 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+## 👨‍💻 Author
+Manjul Mayank
+Artificial Intelligence
+
+
+
+
+
